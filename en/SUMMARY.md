@@ -6,6 +6,6 @@
 * [General Settings](general-settings.md)
 * [Buttons](buttons.md)
    * [Actions](actions.md)
-       * Context
+       * [Context](context.md)
    * [Special Buttons](special-buttons.md)
 
