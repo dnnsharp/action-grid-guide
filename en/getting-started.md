@@ -39,4 +39,4 @@ Important: Note that you will need to unlock the 30 Day trial or Activate for Pr
 To manage Action Grid you have to access the management page of the module, either by clicking on the Manage Grid text displayed on the module after it was added on the page, either you have to click on the right edit menu on Manage Grid options. 
 ![manage screenshot](images/manage.png)
 
-On the management page of the module, there are the following options, which are displayed and available for admins only: the [General Settings](general-settings.md) section, the [Data Source](data-sources.md) section, the [Template](template.md) section, the [Item Buttons and the Grid Buttons](item-buttons.md) section. 
+On the management page of the module, there are the following options, which are displayed and available for admins only: the [General Settings](general-settings.md) section, the [Data Source](data-sources.md) section, the [Template](template.md) section, the [Item Buttons and the Grid Buttons](buttons.md) section. 
