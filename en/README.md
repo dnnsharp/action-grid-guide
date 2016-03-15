@@ -1,5 +1,4 @@
-# What is Action Grid?
-
+<h1 style="float: left; max-width: 70%;">What is Action Grid?</h1>
 <div style="float: left; max-width: 70%;">
 Action Grid enables the integration of powerful tables from multiple sources into DNN projects, providing a simple, yet flexible mean of displaying data in a tabular format.
 </div>
