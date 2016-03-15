@@ -1,3 +1,8 @@
 {
-  "plugin": ["youtube"]
+  "variables": {
+    "code": "URLRW",
+    "name": "Url Adapter",
+    "productPage": "http://www.dnnsharp.com/dnn/modules/seo-rewriter/url-adapter"
+  },
+  "plugins": ["youtube"]
 }
