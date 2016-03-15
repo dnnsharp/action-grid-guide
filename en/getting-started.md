@@ -40,15 +40,3 @@ To manage Action Grid you have to access the management page of the module, eith
 ![manage screenshot](images/manage.png)
 
 On the management page of the module, there are the following options, which are displayed and available for admins only: the [General Settings](general-settings.md) section, the [Data Source](data-sources.md) section, the [Template](template.md) section, the [Item Buttons and the Grid Buttons](item-buttons.md) section. 
-
-
-
-
-
-
-
-
-
-
-
-
