@@ -14,4 +14,12 @@ and add a Data where the Name should contain the value which should be used as t
 
 On the second Inject Data action set as condition: `[HasRole:Administrators|false]` and add the same Data Name as above, "body" and define the value field with the text you want to be displayed for non-admin users. 
 
-Set the Send Email action accordingly and in the Body field use the token predefined in Data Name: `[body]`. And all that remains to do is to test it. 
+Set the Send Email action accordingly and in the Body field use the token predefined in Data Name: `[body]`. And all that remains to do is to test it.
+
+![](images/inject-form-data.png)
+
+## Load User
+
+This action once set on a button lets you manually set a user, it could be the current user performing the submit or it could be the result of other actions.
+
+![](images/load-user.png)
