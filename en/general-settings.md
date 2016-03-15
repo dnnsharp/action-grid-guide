@@ -17,13 +17,15 @@ Other options are the **Enable Search** and **Enable Filters** boxes - if they a
 ### Grid minimum column width
 
 If you would like to set a minimum column width in Action Grid, you can employ the following CSS:
-``css
-div.angrid .angrid-row td:nth-child(7) {min-width:350px;!important}`` (this works in Chrome and IE9 +)
+``` css
+div.angrid .angrid-row td:nth-child(7) {min-width:350px;!important}
+``` (this works in Chrome and IE9 +)
 
 and
 
-``css
-div.angrid .angrid-row td:first-child + td + td + td + td + td + td {{min-width:350px;!important}`` (this works in IE8)
+``` css
+div.angrid .angrid-row td:first-child + td + td + td + td + td + td {min-width:350px;!important}
+``` (this works in IE8)
 
 
 ### Create a list inside the PDF template
