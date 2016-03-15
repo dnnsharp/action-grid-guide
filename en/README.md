@@ -1,14 +1,11 @@
 # What is Action Grid?
-<div>
-<div style="width:20%; float:left">
+
+<div style="display:inline-block;">
 Action Grid enables the integration of powerful tables from multiple sources into DNN projects, providing a simple, yet flexible mean of displaying data in a tabular format.
 
 The table style of a data grid allows viewing data in a modern looking responsive table completed by headers, sorting, filtering, searching and more actions.
 </div>
-<div>
-<img src="images/action-grid-300x388w.png" />
-</div>
-</div>
+<img style="float: right;" src="images/action-grid-300x388w.png" />
 
 # Key Features:
 * **Seamlessly Integrated with Action Form**
