@@ -5,5 +5,5 @@
 * [Getting Started](getting-started.md)
 * [General Settings](general-settings.md)
 * [Buttons](buttons.md)
-   * Actions
+   * [Actions](actions.md)
 
