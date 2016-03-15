@@ -6,4 +6,5 @@
 * [General Settings](general-settings.md)
 * [Buttons](buttons.md)
    * [Actions](actions.md)
+   * Special Buttons
 
