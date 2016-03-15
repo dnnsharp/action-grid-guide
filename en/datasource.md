@@ -29,8 +29,15 @@ The only two differences here are that once you click on Inline Edit Grid button
 
 **Datasource Detail View** - action used to display data on an information panel whenever a grid item is clicked. You can define in the Template what you need to display.
 * On Grid Template 
-* 
+
 An information panel will display below a selected grid item. This detail view can contain tokens, simple text or customized data using HTML. 
 
-
 Here's a sample of a Datasource Detail View Template which uses a token and stylized text with HTML:
+
+![](images/7.jpg)
+
+* On Listing Template
+
+An information panel will open in a Pop Up.
+
+![](images/8.jpg)
