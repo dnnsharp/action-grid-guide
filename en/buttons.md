@@ -30,7 +30,7 @@ Lately we've implemented the Permissions section on the grid buttons, note that 
 
 In this section you have access to settings and rows (only for item buttons), when JavaScript code is added on a grid button, on front end the JS code will be executed before making the web service request to execute button, here are some examples:
 
-1. console.log(settings) > should bring the settings in F12 > Console for both Items and Grid buttons;
-2. console.log(row)  > should bring the current row in F12 > Console for Items only;
-3. row.SomeProperty = "edited" > should reflect instantly on the screen (replace SomePropety with a field that actually exists in the grid);
-4. return false; > will prevent the button actions from executing.
+1. `console.log(settings)` > should bring the settings in F12 > Console for both Items and Grid buttons;
+2. `console.log(row)`  > should bring the current row in F12 > Console for Items only;
+3. `row.SomeProperty = "edited"` > should reflect instantly on the screen (replace SomePropety with a field that actually exists in the grid);
+4. `return false;` > will prevent the button actions from executing.
