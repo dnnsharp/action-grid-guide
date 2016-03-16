@@ -15,5 +15,6 @@
        * [Payments](payments.md)
        * [Redirect](redirect.md)
        * [Security](security.md)
+       * Serialization
    * [Special Buttons](special-buttons.md)
 
