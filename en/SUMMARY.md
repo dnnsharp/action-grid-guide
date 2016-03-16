@@ -12,5 +12,6 @@
        * [Email](email.md)
        * [Entities](entities.md)
        * [Parsing](parsing.md)
+       * Payments
    * [Special Buttons](special-buttons.md)
 
