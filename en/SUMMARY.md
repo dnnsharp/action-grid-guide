@@ -14,5 +14,6 @@
        * [Parsing](parsing.md)
        * [Payments](payments.md)
        * [Redirect](redirect.md)
+       * Security
    * [Special Buttons](special-buttons.md)
 
