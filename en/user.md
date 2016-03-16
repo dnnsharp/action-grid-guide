@@ -58,5 +58,4 @@ This action is used with the purpose to revoke the specified security role from 
 
 This action requires an email or username field and a password field to be present in the fields which are linked to the action in order to login the user. On successful login, access user info using the `[User:*]` tokens (for example `[User:UserID]` or `[User:FirstName]`).
 
-
-
+![](images/clear-user-cache.png)
