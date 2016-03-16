@@ -18,4 +18,5 @@
        * [Serialization](serialization.md)
        * [User](user.md)
    * [Special Buttons](special-buttons.md)
+* Capabilities
 
