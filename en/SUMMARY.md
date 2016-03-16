@@ -10,5 +10,6 @@
        * [Data](data.md)
        * [Datasource](datasource.md)
        * [Email](email.md)
+       * Entities
    * [Special Buttons](special-buttons.md)
 
