@@ -20,4 +20,5 @@
    * [Special Buttons](special-buttons.md)
 * [Capabilities](capabilities.md)
    * [Filter](filter.md)
+* Grid Template
 
