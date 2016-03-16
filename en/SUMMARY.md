@@ -19,7 +19,7 @@
        * [User](buttons/actions/user.md)
    * [Special Buttons](buttons/special-buttons.md)
 * [Capabilities](capabilities/README.md)
-   * [Filter](filter.md)
+   * [Filter](capabilities/filter.md)
 * [Grid Template](grid_template/README.md)
    * [Grid View](grid_template/grid_view/README.md)
        * [Filter](grid_template/grid_view/filtering.md)
