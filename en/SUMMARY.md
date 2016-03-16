@@ -21,5 +21,5 @@
 * [Capabilities](capabilities.md)
    * [Filter](filter.md)
 * [Grid Template](grid_template.md)
-   * Grid View
+   * [Grid View](grid_view.md)
 
