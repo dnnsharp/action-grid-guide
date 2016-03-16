@@ -21,6 +21,6 @@
 * [Capabilities](capabilities/README.md)
    * [Filter](filter.md)
 * [Grid Template](grid_template/README.md)
-   * [Grid View](grid_view/README.md)
-       * [Filter](filtering.md)
+   * [Grid View](grid_template/grid_view/README.md)
+       * [Filter](grid_template/grid_view/filtering.md)
 
