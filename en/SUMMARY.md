@@ -5,7 +5,7 @@
 * [Getting Started](getting-started.md)
 * [General Settings](general-settings.md)
 * [Buttons](buttons/README.md)
-   * [Actions](actions/README.md)
+   * [Actions](buttons/actions/README.md)
        * [Context](buttons/actions/context.md)
        * [Data](buttons/actions/data.md)
        * [Datasource](buttons/actions/datasource.md)
