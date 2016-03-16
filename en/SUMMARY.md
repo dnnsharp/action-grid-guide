@@ -16,6 +16,6 @@
        * [Redirect](redirect.md)
        * [Security](security.md)
        * [Serialization](serialization.md)
-       * User
+       * [User](user.md)
    * [Special Buttons](special-buttons.md)
 
