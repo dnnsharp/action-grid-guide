@@ -9,5 +9,6 @@
        * [Context](context.md)
        * [Data](data.md)
        * [Datasource](datasource.md)
+       * Email
    * [Special Buttons](special-buttons.md)
 
