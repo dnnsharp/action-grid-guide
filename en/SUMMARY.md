@@ -22,5 +22,5 @@
    * [Filter](filter.md)
 * [Grid Template](grid_template.md)
    * [Grid View](grid_view.md)
-       * Filter
+       * [Filter](filtering.md)
 
