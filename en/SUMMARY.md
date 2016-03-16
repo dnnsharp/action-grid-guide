@@ -19,4 +19,5 @@
        * [User](user.md)
    * [Special Buttons](special-buttons.md)
 * [Capabilities](capabilities.md)
+   * Filter
 
