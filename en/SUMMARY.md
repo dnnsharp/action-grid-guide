@@ -11,6 +11,6 @@
        * [Datasource](datasource.md)
        * [Email](email.md)
        * [Entities](entities.md)
-       * Parsing
+       * [Parsing](parsing.md)
    * [Special Buttons](special-buttons.md)
 
