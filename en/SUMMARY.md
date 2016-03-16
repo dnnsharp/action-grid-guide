@@ -13,6 +13,6 @@
        * [Entities](entities.md)
        * [Parsing](parsing.md)
        * [Payments](payments.md)
-       * Redirect
+       * [Redirect](redirect.md)
    * [Special Buttons](special-buttons.md)
 
