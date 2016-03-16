@@ -6,7 +6,7 @@
 * [General Settings](general-settings.md)
 * [Buttons](buttons/README.md)
    * [Actions](actions/README.md)
-       * [Context](context.md)
+       * [Context](./context.md)
        * [Data](data.md)
        * [Datasource](datasource.md)
        * [Email](email.md)
