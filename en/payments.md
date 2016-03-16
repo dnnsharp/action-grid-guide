@@ -35,10 +35,10 @@ The Collect Paypal Payment action allows you to set the requirement before givin
 * **Cancel Page**
 
   The Cancel Page drop down menu includes a list of pages for redirecting the user when Cancel is selected. The list of pages in the Cancel Page menu depends on the pages available in your site.
-* Pending Payment Page
+* **Pending Payment Page**
 
   The Pending Payment Page drop down menu includes a list of pages for redirecting the user when the payment is pending. The list of pages in the Cancel Page menu depends on the pages available in your site.
-* Generate Unique Order ID
+* **Generate Unique Order ID**
   
   If you check this option box, an unique ID will be generated for each order the users makes.
   
