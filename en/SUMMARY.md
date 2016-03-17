@@ -33,5 +33,5 @@
    * [Database Table](data-sources/database-table.md)
    * [Sql Query](data-sources/sql-query.md)
 * [Debug](debug.md)
-* Examples
+* [Examples](examples.md)
 
