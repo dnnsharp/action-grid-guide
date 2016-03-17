@@ -20,6 +20,7 @@
    * [Special Buttons](buttons/special-buttons.md)
 * [Capabilities](capabilities/README.md)
    * [Filter](capabilities/filter.md)
+   * Pagination
 * [Grid Template](grid_template/README.md)
    * [Grid View](grid_template/grid_view/README.md)
        * [Filter](grid_template/grid_view/filtering.md)
