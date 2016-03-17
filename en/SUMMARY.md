@@ -34,4 +34,5 @@
    * [Sql Query](data-sources/sql-query.md)
 * [Debug](debug.md)
 * [Examples](examples.md)
+* FAQs
 
