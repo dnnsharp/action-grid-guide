@@ -4,3 +4,5 @@ No matter the Data Source linked to your grid, the data can now be displayed in 
 How to set the Template 
 
 When you are on the manage page of the module, go to Template section and enlarge the list, here you can let the default template option or you can choose the Listing template where you can see multiple columns where you get to specify on each device how many columns to be displayed. When you'll get back on the page, the data will no longer be displayed in grid layout but in some nice boxes - click [here](listing-view/README.md) to see the layout. 
+
+![](images/template.png)
