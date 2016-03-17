@@ -4,7 +4,7 @@ Data sources in Action Grid are defined via configuration files. This makes it v
 
 ## Configuration
 
-Let’s start with the configuration. All configuration files live in at `/DesktopModules/DnnSharp/ActionGrid/Config/DataSource`. There is a `.defaults.json.config` file already in there that ships with Action Grid. This contains all the prebuilt data sources described in this documentation. You shouldn’t make changes to this file, since it will get overwritten on updates. Instead, create your own config file and follow the same structure as the default configuration file. Action Grid knows to watch this folder for modifications. So your configuration will be picked up real time. 
+Let's start with the configuration. All configuration files live in at `/DesktopModules/DnnSharp/ActionGrid/Config/DataSource`. There is a `.defaults.json.config` file already in there that ships with Action Grid. This contains all the prebuilt data sources described in this documentation. You shouldn't make changes to this file, since it will get overwritten on updates. Instead, create your own config file and follow the same structure as the default configuration file. Action Grid knows to watch this folder for modifications. So your configuration will be picked up real time. 
 
 The config file is in JSON format. The root element is an array, which means you can have multiple definitions in the same file. The most simple configuration file would look like this: 
 ``` json
@@ -20,7 +20,7 @@ The config file is in JSON format. The root element is an array, which means you
 ]
 ```
 
-Here’s the explanation: 
+Here's the explanation: 
 
 * Id
 
@@ -39,7 +39,7 @@ Here’s the explanation:
 
 * TypeStr
 
-  This is the actual implementation that implements all the logic. It should be a fully qualified class that implements DnnSharp.ActionGrid.Core.DataSource.IDataSource interface. More details below.
+  This is the actual implementation that implements all the logic. It should be a fully qualified class that implements `DnnSharp.ActionGrid.Core.DataSource.IDataSource` interface. More details below.
 
 * Parameters
 
@@ -52,7 +52,7 @@ A data source in Action Grid is a class that implements the `DnnSharp.ActionGrid
 
 * **Available Fields**
 
-  These are shown in Action Grid admin. They can be reordered or turned off by administrators so they don’t appear in admin UI.
+  These are shown in Action Grid admin. They can be reordered or turned off by administrators so they don't appear in admin UI.
 
 * **Data**
   
@@ -60,14 +60,14 @@ A data source in Action Grid is a class that implements the `DnnSharp.ActionGrid
 
 * **Filter Values**
 
-  Fields that can be filtered will query the data source for a list of possible values. The data source would return all distinct values for the given fields. If you were doing SQL, you’d select distinct values. A nice touch would be to still applying the rest of the filter so all filter values have associated results.
+  Fields that can be filtered will query the data source for a list of possible values. The data source would return all distinct values for the given fields. If you were doing SQL, you'd select distinct values. A nice touch would be to still applying the rest of the filter so all filter values have associated results.
 
 * **Delete**
 
-  Action Grid calls this method once for every entry that’s being deleted. This is an optional feature.
+  Action Grid calls this method once for every entry that's being deleted. This is an optional feature.
 
 * **Special Fields**
 
   There are some special fields that Action Grid needs to operate, such as the ID field or the URLs where entries can be added or edited. If you look at the Database Table data source, the ID is collected from the user using a parameter, while the Action Form data source implicitly sets the ID column based on its relationship with the Action Form reports table. 
 
-Note that in many cases you don’t need to implement this interface directly, and instead you can derive from a specialised class. For this purpose, we present the `DnnSharp.ActionGrid.Core.DataSource.CachedDataSource` abstract class which caches data in a Lucene index, making it very fast for querying. In fact, the Action Form data source is derived from this.
+Note that in many cases you don't need to implement this interface directly, and instead you can derive from a specialized class. For this purpose, we present the `DnnSharp.ActionGrid.Core.DataSource.CachedDataSource` abstract class which caches data in a Lucene index, making it very fast for querying. In fact, the Action Form data source is derived from this.
