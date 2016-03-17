@@ -23,9 +23,6 @@
    * [Pagination](capabilities/pagination.md)
    * [Search](capabilities/search.md)
    * [Sort](capabilities/sort.md)
-* [Grid Template](grid-template/README.md)
-   * [Grid View](grid-template/grid-view/README.md)
-       * [Filter](grid-template/grid-view/filtering.md)
 * [Conditions](conditions.md)
 * [Data Sources](data-sources/README.md)
    * [Action Form](data-sources/action_form.md)
@@ -37,4 +34,6 @@
 * [FAQs](faqs.md)
 * [Form Builder](form-builder.md)
 * [Formatting](formatting.md)
-
+* [Grid Template](grid-template/README.md)
+   * [Grid View](grid-template/grid-view/README.md)
+       * [Filter](grid-template/grid-view/filtering.md)
