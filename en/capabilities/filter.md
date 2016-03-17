@@ -21,9 +21,9 @@ With Action Grid 2.0, whenever the user sets in a grid's data source the SQL Que
 
 Scenario: 
 
-We have a grid that pulls data from a table. It has a filterable column Division. If we call the page with query parameter filter-Division=some value, then it filters the grid to only show entries with that division. However, there is no option to reset the filters and show all entries.
+We have a grid that pulls data from a table. It has a filterable column Division. If we call the page with query parameter `filter-Division=some value`, then it filters the grid to only show entries with that division. However, there is no option to reset the filters and show all entries.
 
-A workaround could be to add a Grid Button to say Clear Filters, which would do a redirect to the same page, therefore losing the filters. You can have [$filter-fieldname] != "" in the Condition field of the button so that it only shows when there's something in the URL.
+A workaround could be to add a Grid Button to say Clear Filters, which would do a redirect to the same page, therefore losing the filters. You can have `[$filter-fieldname] != ""` in the Condition field of the button so that it only shows when there's something in the URL.
 
 ### Filter grid data by column
 
