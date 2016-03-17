@@ -36,5 +36,5 @@
 * [Examples](examples.md)
 * [FAQs](faqs.md)
 * [Form Builder](form-builder.md)
-* Formatting
+* [Formatting](formatting.md)
 
