@@ -70,11 +70,11 @@ Here is an example of  query and will look below of what is new:
 
 The SQL Header should look like this :
 
-![](/assets/5a6b68bbe6[1].png)
+![](/assets/5a6b68bbe6[2].png)
 
 The result should be something like this:
 
-![](/assets/4e4079e584[1].png)
+![](http://puu.sh/sMKP3/4e4079e584.png)
 
 ### Fields:
 
