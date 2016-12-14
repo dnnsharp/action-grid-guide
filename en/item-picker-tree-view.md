@@ -8,7 +8,7 @@ Those datasources will bind all the the data and you will be able to select a pa
 
 The result should be something like this:
 
-![](/assets/1f2143bdb9[1].png)
+![](/en/assets/1f2143bdb9[1].png)
 
 # SQL Query
 
@@ -70,11 +70,11 @@ Here is an example of  query and will look below of what is new:
 
 The SQL Header should look like this :
 
-![](/assets/1f2143bdb9[1].png)
+![](/en/assets/1f2143bdb9[1].png)
 
 The result should be something like this:
 
-![](http://puu.sh/sMKP3/4e4079e584.png)
+![](/en/assets/4e4079e584[1].png)
 
 ### Fields:
 
@@ -104,7 +104,7 @@ Because mainly the data sources require the nodes to be selectable the expanding
 
 # Search
 
-The search works with by pressing the button on the right of the textbox \( ![](/assets/cfb6ed253e[1].png) \) or by pressing Enter key._ It will not search when the input is changed._
+The search works with by pressing the button on the right of the textbox \( ![](/en/assets/cfb6ed253e[1].png) \) or by pressing Enter key._ It will not search when the input is changed._
 
 # Initially Selected
 
