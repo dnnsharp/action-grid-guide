@@ -90,11 +90,26 @@ The result should be something like this:
 
 **IsSelectable: **Tell the item if it can be selectable _\(can be a leaf or a node\)_
 
-### Note:
+### Notes:
 
 **If the columns name is not provided as above the control will not work. **
 
-# IsSelectable \(SQL Query Only\)
+**It is only necessary to provide only one of the two combinations of Path/ParentPath or ItemId/ParentId. **
+
+### SQL Conditions:
+
+For all the featues of this field to work properly specific conditions must be set on the SQL based on @parentId/@parentPath and @searchText, their values are automatically set by our code. In our example we used @parentId.
+
+Different values are set for these parameters based on the action executed:
+- on page initialization (searchText is empty, itemPath is /, itemId is -1)
+- on search (searchText is the provided value, itemPath is /, itemId is -1)
+- on expanding an item (searchText is empty, itemPath/itemId is the value of the selected field)
+
+The SQL must work on all of these actions or the field will crash.##tId
+
+
+
+IsSelectable \(SQL Query Only\)
 
 When this value is 'true' than the leaf or node can be selected and chosen as an option. When 'false' the mouse pointer will be change and let you know that you can't click that item and choose it as an option.
 
