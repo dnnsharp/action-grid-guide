@@ -8,7 +8,7 @@ Those datasources will bind all the the data and you will be able to select a pa
 
 The result should be something like this:
 
-![](/en/assets/1f2143bdb9[1].png)
+![](assets/1f2143bdb9[1].png)
 
 # SQL Query
 
@@ -70,11 +70,11 @@ Here is an example of  query and will look below of what is new:
 
 The SQL Header should look like this :
 
-![](/en/assets/1f2143bdb9[1].png)
+![](assets/1f2143bdb9[1].png)
 
 The result should be something like this:
 
-![](/en/assets/4e4079e584[1].png)
+![](assets/4e4079e584[1].png)
 
 ### Fields:
 
@@ -100,11 +100,11 @@ When this value is 'true' than the leaf or node can be selected and chosen as an
 
 # Expanding & Collapsing
 
-Because mainly the data sources require the nodes to be selectable the expanding and collapsing is made from the plus \( ![](/en/assets/folder-closed.png) \) and minus \( ![](/en/assets/folder.png) \) where the file \( ![](/en/assets/file.png) \) mean that there is a leaf and can't be expanded.
+Because mainly the data sources require the nodes to be selectable the expanding and collapsing is made from the plus \( ![](assets/folder-closed.png) \) and minus \( ![](assets/folder.png) \) where the file \( ![](assets/file.png) \) mean that there is a leaf and can't be expanded.
 
 # Search
 
-The search works with by pressing the button on the right of the textbox \( ![](/en/assets/cfb6ed253e[1].png) \) or by pressing Enter key._ It will not search when the input is changed._
+The search works with by pressing the button on the right of the textbox \( ![](assets/cfb6ed253e[1].png) \) or by pressing Enter key._ It will not search when the input is changed._
 
 # Initially Selected
 
