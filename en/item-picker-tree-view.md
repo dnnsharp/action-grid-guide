@@ -112,7 +112,7 @@ The search works with by pressing the button on the right of the textbox \( ![](
 
 ### PortalFolderList: _Path_
 
-### SQL Query: _value from Value Collumn_
+### SQL Query: _value from Value Column_
 
 
 
