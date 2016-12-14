@@ -107,11 +107,23 @@ Different values are set for these parameters based on the action executed:
 - on search (searchText is the provided value, itemPath is /, itemId is -1)
 - on expanding an item (searchText is empty, itemPath/itemId is the value of the selected field)
 
-The SQL must work on all of these actions or the field will crash.##tId
+The SQL must work on all of these actions or the field will crash.
 
+**--condition for getting descendents of an item**
 
+This condition should return all children of a field based on @parentId or @parentPath.
 
-IsSelectable \(SQL Query Only\)
+**--condition for getting the root items**
+
+This condition should return all root elements when @parentId and @parentPath have the defaults values.
+
+**--condition for search**
+
+This condition should return all items when the @searchText is not empty
+
+Note that all these condition should be exxclusive Or (XOR). So at any time only one of them should be true, while the other two must be false.
+
+# IsSelectable \(SQL Query Only\)
 
 When this value is 'true' than the leaf or node can be selected and chosen as an option. When 'false' the mouse pointer will be change and let you know that you can't click that item and choose it as an option.
 
