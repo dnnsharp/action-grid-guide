@@ -70,7 +70,7 @@ Here is an example of  query and will look below of what is new:
 
 The SQL Header should look like this :
 
-![](assets/1f2143bdb9[1].png)
+![](assets/5a6b68bbe6[1].png)
 
 The result should be something like this:
 
