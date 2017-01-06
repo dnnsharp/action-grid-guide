@@ -23,6 +23,7 @@
     * [Pagination](capabilities/pagination.md)
     * [Search](capabilities/search.md)
     * [Sort](capabilities/sort.md)
+    * [Update Datasource without postback](capabilities/update-datasource-without-postback.md)
 * [Conditions](conditions.md)
 * [Data Sources](data-sources/README.md)
     * [Action Form](data-sources/action_form.md)
