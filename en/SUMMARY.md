@@ -35,6 +35,7 @@
 * [FAQs](faqs.md)
 * [Form Builder](form-builder.md)
     * [Item Picker \(Tree View\)](item-picker-tree-view.md)
+    * [Star Rating](star-rating.md)
 * [Formatting](formatting.md)
 * [Grid Template](grid-template/README.md)
     * [Grid View](grid-template/grid-view/README.md)
