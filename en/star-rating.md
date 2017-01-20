@@ -1,7 +1,10 @@
 # Star Rating
 
-```
-This field is available in Action Grid \(FormBuilder\) and Action Form. It was designed to help developers to have a simple way to create a form in which they can evaluate services or products with a star based field. The field has a large number of customization fields. 
+```java
+This field is available in Action Grid \(FormBuilder\) and Action Form. 
+It was designed to help developers to have a simple way to create a form in which they can evaluate services 
+or products with a star based field. 
+The field has a large number of customization fields.
 ```
 
 ## Settings
