@@ -17,23 +17,23 @@ Other options are the **Enable Search** and **Enable Filters** boxes - if they a
 
 ### Grid Row Selection
 
-This option is available under General Settings and comes enabled by default. Basically it enables the selection of grid rows when grid buttons are present. 
+This option is available under General Settings and comes enabled by default. Basically it enables the selection of grid rows when grid buttons are present.
 
-Warning: If you disable this option your grid buttons can't have Per item or Final actions.
+**Warning:** If you disable this option your grid buttons can't have Per item or Final actions.
 
 ### Refresh when a modal/popup is closed
 
-This option is available under General Settings and comes disabled by default. Use it to refresh Action Grid when a Bootstrap modal is closed. For example when using [Open in Pop option](http://action-grid.dnnsharp.com/buttons/special-buttons#TOC-Popups) the`afcallparentonsubmit=angridEditDone`parameter is no longer necessary. 
+This option is available under General Settings and comes disabled by default. Use it to refresh Action Grid when a Bootstrap modal is closed. For example when using [Open in Pop option](http://action-grid.dnnsharp.com/buttons/special-buttons#TOC-Popups) the`afcallparentonsubmit=angridEditDone`parameter is no longer necessary.
 
 ### Grid minimum column width
 
 If you would like to set a minimum column width in Action Grid, you can employ the following CSS:  
-`css            
+`css              
 div.angrid .angrid-row td:nth-child(7) {min-width:350px;!important}` \(this works in Chrome and IE9 +\)
 
 and
 
-`css            
+`css              
 div.angrid .angrid-row td:first-child + td + td + td + td + td + td {min-width:350px;!important}` \(this works in IE8\)
 
 ### Create a list inside the PDF template
