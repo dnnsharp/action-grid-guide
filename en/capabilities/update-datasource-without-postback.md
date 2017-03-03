@@ -4,15 +4,11 @@ The **Sync URL **option is available under General Settings and comes enabled by
 
 The new URL will be similar with the following: [http://domain.com/ActionGridPage?pageModuleId=Value&sizeModuleId=Value&searchModuleId=Value&sortModuleId=Value&sortdirModuleId=asc&filterModuleID-GridField=Value](http://domain.com/ActionGridPage?pageModuleId=Value&sizeModuleId=Value&searchModuleId=Value&sortModuleId=Value&sortdirModuleId=asc&filterModuleID-GridField=Value). Copy pasting the URL in other browsers/tabs should open the grid with exact same data.
 
-
-
 ## Refreshing Grid without Page Load from Outside Action Grid
 
 Using this feature. it's possible to trigger the grid to refresh its data just by changing the URL using HTML5 push state feature. This means there is no page load, so the flow is smooth. There are two ways to accomplish that: using the Refresh Grid action that comes with any action based module or manually from javascript using push state function of HTML5.
 
 ### Refresh the grid using the Refresh Grid action
-
-
 
 ### Refresh the grid manually
 
