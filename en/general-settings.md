@@ -28,17 +28,27 @@ This option is available under General Settings and comes disabled by default. U
 ### Grid minimum column width
 
 If you would like to set a minimum column width in Action Grid, you can employ the following CSS:  
-`css              
+`css                
 div.angrid .angrid-row td:nth-child(7) {min-width:350px;!important}` \(this works in Chrome and IE9 +\)
 
 and
 
-`css              
+`css                
 div.angrid .angrid-row td:first-child + td + td + td + td + td + td {min-width:350px;!important}` \(this works in IE8\)
 
 ### Create a list inside the PDF template
 
 Right now the only way to create a list inside the PDF template is through My Tokens using a Razor token that loops over a SQL token. I believe there's an example here [my-tokens.dnnsharp.com/scripts-templates](http://my-tokens.dnnsharp.com/scripts-templates).
+
+### Tabs Pro Integration
+
+This option is available under the General Settings of Action Grid module and comes disabled by default. Basically it determine the when the load/refresh operation should be done.
+
+**Note: **The options are working only if you already have [TabsPro](http://www.dnnsharp.com/dnn/modules/tabs-pro) version higher than 02.01.40 installed.
+
+* **Load When Tab Is Activated - **this option enables Action Grid to be initialized when the tab is active;
+
+* **Refresh Grid When Tab Is Activated - **this option enables Action Grid to be refreshed when tab is active.
 
 ### Drag and Drop Actions
 
