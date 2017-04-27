@@ -9,6 +9,7 @@
     * [Context](buttons/actions/context.md)
     * [Data](buttons/actions/data.md)
     * [Datasource](buttons/actions/datasource.md)
+    * [DNN Sharp](buttons/actions/dnn-sharp.md)
     * [Email](buttons/actions/email.md)
     * [Entities](buttons/actions/entities.md)
     * [Parsing](buttons/actions/parsing.md)
@@ -16,7 +17,7 @@
     * [Redirect](buttons/actions/redirect.md)
     * [Security](buttons/actions/security.md)
     * [Serialization](buttons/actions/serialization.md)
-    * [User](buttons/actions/user.md)
+    * DNN Sharp
   * [Special Buttons](buttons/special-buttons.md)
 * [Capabilities](capabilities/README.md)
   * [Filter](capabilities/filter.md)
