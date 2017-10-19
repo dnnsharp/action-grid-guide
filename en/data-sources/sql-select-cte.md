@@ -9,7 +9,7 @@ A common table expression \(CTE\) can be thought of as a temporary result set th
 * Connection String - it provides the possibility to connect to a different database by providing the name of a connection string from web.config or a connection string \(read [connectionstrings.com](http://www.connectionstrings.com/) for more info\). Leave empty to connect to the current DNN Database. 
 * SQL Select for Retrieving Items - the SQL query set that will return the grid data.
 
-  * **Warning!** This option doesn't support tokenization; all tokens needed there should be replaced by bind tokens. Use _@name _syntax instead_ of _'\[name\]', where the @name it's a bind token declared below. e.g. SELECT \* FROM table WHERE Column = @name. The SQL injection can be avoided using bind tokens. 
+  * **Warning!** This option doesn't support tokenization; all tokens needed there should be replaced by bind tokens. Use _@name _syntax instead of '\[name\]', where the @name it's a bind token declared below. e.g. SELECT \* FROM table WHERE Column = @name. The SQL injection can be avoided using bind tokens. 
 
 * Bind Tokens - it binds the parameters used above with a constant value or a token.
 
