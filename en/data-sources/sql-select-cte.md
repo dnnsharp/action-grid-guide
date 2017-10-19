@@ -2,14 +2,14 @@
 
 The data source iterates through the database tables, gets data row by row and populates the configured properties with the specified value.
 
-This data source is optimized using Common Table Expressions \(CTE\) and can make your Grid load from 16 seconds to...almost instantly! See the[ video](https://youtu.be/tpUOEIriD9o).
+This data source is optimized using Common Table Expressions \(CTE\) and can make your Grid load almost instantly! See the[ video](https://youtu.be/tpUOEIriD9o).
 
 A common table expression \(CTE\) can be thought of as a temporary result set that is defined within the execution scope of a single SELECT, INSERT, UPDATE or DELETE statement. A CTE is similar to a derived table in that it is not stored as an object and lasts only for the duration of the query. Unlike a derived table, a CTE can be self-referencing and can be referenced multiple times in the same query.
 
 * Connection String - it provides the possibility to connect to a different database by providing the name of a connection string from web.config or a connection string \(read [connectionstrings.com](http://www.connectionstrings.com/) for more info\). Leave empty to connect to the current DNN Database. 
 * SQL Select for Retrieving Items - the SQL query set that will return the grid data.
 
-  * **Warning!** This option doesn't support tokenization; all tokens needed there should be replaced by bind tokens. Use _@name _syntax instead of_ '\[name\]'_, where the _@name_ it's a bind token declared below. e.g. SELECT \* FROM table WHERE Column =_ @name_. The SQL injection can be avoided using bind tokens. 
+  * **Warning!** This option doesn't support tokenization; all tokens needed there should be replaced by bind tokens. Use _@name _syntax instead of _'\[name\]', _where the_ @name _it's a bind token declared below. e.g. SELECT \* FROM table WHERE Column = _@name_. The SQL injection can be avoided using bind tokens. 
 
 * Bind Tokens - it binds the parameters used above with a constant value or a token.
 
