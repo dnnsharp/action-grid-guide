@@ -31,7 +31,7 @@
   * [Action Form](data-sources/action_form.md)
   * [Custom Data Sources](data-sources/custom-data-sources.md)
   * [Database Table](data-sources/database-table.md)
-  * [Sql Query](data-sources/sql-query.md)
+  * [Sql Advanced Query](data-sources/sql-query.md)
 * [Debug](debug.md)
 * [Examples](examples.md)
 * [FAQs](faqs.md)
