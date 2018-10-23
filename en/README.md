@@ -1,5 +1,5 @@
-# This page has been moved, please go to [docs.dnnsharp.com](docs.dnnsharp.com/action-grid/index.html)
-
+# This page has been moved, please go to [docs.dnnsharp.com](docs.dnnsharp.com/action-grid/index.html) for the latest Action Grid Documentation
+<hr>
 <h1 style="float: left; max-width: 70%; margin-top:0;">
 What is Action Grid?
 </h1>
